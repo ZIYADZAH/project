@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.one{
+    display: flex;
+}
+img{
+width: 800px;
+height: 741px;
+}
+.login{
+    text-align: center;
+    margin: auto;
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 7%;
+    background-color: #DBE9EE;
+}
+h1{
+    margin-top: 18px;
+}
+/* بداية كود الايميل */
+.input {
+    max-width: 190px;
+    height: 44px;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .label {
+    margin-top: 40px;
+    display: block;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #4A6FA5;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .input:hover, .input:focus, .input-group:hover .input {
+    outline: none;
+    border-color: #4A6FA5;
+  }
+  
+  .input-group:hover .label, .input:focus {
+    color: #4A6FA5;
+  }
+  /* نهاية كود الايميل */
+  /* بداية كود الباسوورد  */
+  .input2 {
+    max-width: 190px;
+    height: 44px;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .label2 {
+    margin-top: 40px;
+    display: block;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #4A6FA5;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .input:hover, .input:focus, .input-group:hover .input2 {
+    outline: none;
+    border-color: #4A6FA5;
+  }
+  
+  .input-group:hover .label2, .input:focus {
+    color: #4A6FA5;
+  }
+  /* نهاية كود الباسوورد  */
+
+  button {
+    margin-top: 30px;
+    font-family: monospace;
+    background-color: #f3f7fe;
+    color: #166088;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: .3s;
+  }
+  
+  button:hover {
+    background-color: #4A6FA5;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+  }
+  
