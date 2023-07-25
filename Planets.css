@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* navvvvv bar */
+div{
+    background-color: #4F6D7A;
+    display: flex;
+    padding: 6px;
+    flex-direction: row;
+
+}
+/* تعديل الصوره  */
+img{
+
+    position: absolute;
+    width: 90%;
+    height: 70%;
+}
+.text{
+    color: aliceblue;
+
+}
+/* بداية تصاميم الtext */
+.hometext{
+    cursor:pointer;
+    text-decoration: none;
+}
+.solar{
+    cursor:pointer;
+}
+.black{
+    cursor:pointer;
+}
+.about{
+    cursor:pointer;
+}
+/* endddddddddd */
+.fot{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
