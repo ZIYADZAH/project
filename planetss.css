@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* navvvvv bar */
+div{
+    display: flex;
+    padding: 6px;
+    flex-direction: row;
+
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    /* word-spacing:20px ; */
+    justify-content: space-evenly;
+    padding: 20px;
+
+    
+}
+/* test */
+/* بداية تصاميم الtggext */
+.hometext{
+    cursor:pointer;
+}
+.solar{
+    cursor:pointer;
+    text-decoration: none;
+    color: aliceblue;
+}
+.black{
+    cursor:pointer;
+}
+.about{
+    cursor:pointer;
+    text-decoration: none;
+
+}
+/* endddddddddd */
+
